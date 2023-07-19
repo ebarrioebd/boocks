@@ -1,0 +1,31 @@
+#nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav>div {
+    height: 4vh;
+    font-family: "Times New Roman", Times, serif;
+    border: outset 3px;
+    width: 25%;
+    background: #d9d6b1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#add:hover,
+#home:hover,
+#search:hover,
+#logout:hover {
+    background: #fffad1;
+}
+
+body {
+    background: #DCDDDF url(https://cssdeck.com/uploads/media/items/7/7AF2Qzt.png);
+    color: #000;
+    font: 14px Arial;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
